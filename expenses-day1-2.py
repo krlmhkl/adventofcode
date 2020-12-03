@@ -3,7 +3,7 @@ expenses = list(map(int, textfile.readlines()))
 
 x = 0
 y = 0
-
+z = 0
 
 while True:
     if expenses[x] + expenses[y] + expenses[z] == 2020:
