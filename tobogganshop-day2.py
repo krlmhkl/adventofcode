@@ -19,6 +19,3 @@ maxamount = line[1]
 policy = line[2]
 password = line[3]
 
-for s in passwords:
-    listed = (textfile.readlines()).replace("-", "")
-    print(listed)
