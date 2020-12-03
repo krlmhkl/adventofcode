@@ -1,5 +1,6 @@
 textfile = open("tobogganpasswords.txt", "r")
-passwords = textfile.readlines()
+passwords = list(textfile.readlines())
+
 
 # separate lines as list
 # for each line, separate numbers, single letter, password, by index 0-3
@@ -13,7 +14,11 @@ passwords = textfile.readlines()
 
 x = 0
 line = passwords[x]
-minamount = passwords[line[0]]
-maxamount = passwords[line[1]]
-policy = passwords[line[2]]
-password = passwords[line[3]]
+minamount = line[0]
+maxamount = line[1]
+policy = line[2]
+password = line[3]
+
+for s in passwords:
+    listed = (textfile.readlines()).replace("-", "")
+    print(listed)
