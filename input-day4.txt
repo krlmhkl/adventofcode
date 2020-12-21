@@ -1065,4 +1065,8 @@ eyr:2017 hcl:z pid:#2f9848 iyr:2024
 hgt:170cm
 
 hgt:60in eyr:2026 byr:1922 hcl:#18171d iyr:2016
+<<<<<<< HEAD
 pid:921038878
+=======
+pid:921038878
+>>>>>>> b86248bddf6b2e7a7c4eb22b4ed7e10a4378392a
