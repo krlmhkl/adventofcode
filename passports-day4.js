@@ -1,14 +1,12 @@
-<script>
-    const fs = require('fs')
+const fs = require('fs')
 
-    fs.readFile('input-day4.txt', (err, data) => {
-        if (err) throw err;
+fs.readFile('input-day4.txt', (err, data) => {
+    if (err) throw err;
 
-        console.log(data.toString());
-    })
+    console.log(data.toString());
+})
 
-
-
-
-
-</script>
+function splitthestuff() {
+    var str = fs, readFile("input-day4-txt");
+    console.log(str)
+}
